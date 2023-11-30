@@ -15,9 +15,9 @@
 - Haga sus operaciones en el programa.
   
 # Recursos:
-(https://www.python.org/)
-(https://stackoverflow.com/)
-(https://geeksforgeeks.org/)
-(https://programacion.concristian.com.ar/)
-(https://elcodigoascii.com.ar/)
-(https://realpython.com/)
+https://www.python.org/
+https://stackoverflow.com/
+https://geeksforgeeks.org/
+https://programacion.concristian.com.ar/
+https://elcodigoascii.com.ar/
+https://realpython.com/

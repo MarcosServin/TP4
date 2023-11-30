@@ -3,7 +3,7 @@
 
 # Requerimientos:
 - Lenguaje Python versión 3.11.5 o una versión superior.
-- 
+
 # Links de descarga:
 [Link de descarga oficial de Python](https://www.python.org/downloads/)
 -
@@ -13,7 +13,7 @@
 - Abra un terminal o Command Prompt/CMD (*En windows: WIN+R→cmd→ejecutar*).
 - En el terminal escriba:"Python Dirección de el archivo ***calculadora_funciones***(Para conseguir la direccion arrastre el archivo .py al terminal)"
 - Haga sus operaciones en el programa.
-- 
+  
 # Recursos:
 (https://www.python.org/)
 (https://stackoverflow.com/)

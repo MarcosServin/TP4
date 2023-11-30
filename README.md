@@ -7,14 +7,17 @@
 # Links de descarga:
 [Link de descarga oficial de Python](https://www.python.org/downloads/)
 -
-# Pasos
+# Pasos:
 - Descargue la última versión de Python correspondiente a su sistema usando el link dado.
 - Continúe con una instalacion estandar dando privilegios de administrador al instalador.
 - Abra un terminal o Command Prompt/CMD (*En windows: WIN+R→cmd→ejecutar*).
-- En el terminal escriba:"Python + *dirección de el archivo*:***calculadora_funciones*** (Para conseguir la direccion arrastre el archivo .py al terminal)"
+- En el terminal escriba:"Python + *dirección de el archivo*:***calculadora_funciones.py*** (Para conseguir la direccion arrastre el archivo .py al terminal)"
 - Haga sus operaciones en el programa.
 - Descarga el branch "feature/calculadora_cientifica" para mas funciones.
-  
+- 
+# Notas:
+-Si se queda sin espacio para los caracteres agrande el programa.
+-
 # Recursos:
 https://www.python.org/
 https://stackoverflow.com/

@@ -8,7 +8,7 @@
 [Link de descarga oficial de Python](https://www.python.org/downloads/)
 
 # Pasos:
-- Descargue la última versión de Python correspondiente a su sistema usando el link dado.
+- Descargue la última versión de Python correspondiente a su sistema.
 - Continúe con una instalación estandar con privilegios de administrador.
 - Abra un terminal o Command Prompt/CMD (*En windows: WIN+R→cmd→ejecutar*).
 - En el terminal escriba:"Python + *dirección de el archivo*:***calculadora_funciones.py*** (Para conseguir la direccion arrastre el archivo `.py` al terminal)"

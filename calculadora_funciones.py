@@ -49,7 +49,7 @@ class Calculadora:
             self.computo_final()
         elif valor=='←':
             self.entrada.delete(index-1)
-        elif valor=="CE":
+        elif valor=="Limpiar":
             self.entrada.delete(0,index)
         else:
             self.entrada.insert(index,valor)
@@ -63,7 +63,7 @@ class Calculadora:
         self.crear_boton("/", 0, 1)
         self.crear_boton("=", 0, 2)
         self.crear_boton("←", 0, 3)
-        self.crear_boton("CE", 0, 4)
+        self.crear_boton("Limpiar", 0, 4)
         self.crear_boton("7", 1, 0)
         self.crear_boton("8", 1, 1)
         self.crear_boton("9", 1, 2)

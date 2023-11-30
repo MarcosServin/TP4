@@ -16,7 +16,7 @@
 - Descarga el branch "feature/calculadora_cientifica" para mas funciones.
 - 
 # Notas:
--Si se queda sin espacio para los caracteres agrande el programa.
+- Si se queda sin espacio para los caracteres agrande el programa.
 -
 # Recursos:
 https://www.python.org/

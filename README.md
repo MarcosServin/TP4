@@ -13,6 +13,7 @@
 - Abra un terminal o Command Prompt/CMD (*En windows: WIN+R→cmd→ejecutar*).
 - En el terminal escriba:"Python Dirección de el archivo ***calculadora_funciones***(Para conseguir la direccion arrastre el archivo .py al terminal)"
 - Haga sus operaciones en el programa.
+- Descarga el branch "feature/calculadora_cientifica" para mas funciones.
   
 # Recursos:
 https://www.python.org/

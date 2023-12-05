@@ -52,9 +52,24 @@ class Calculadora:
         else:
             self.entrada.insert(index,valor)
 
-    def crear_boton(self, valor, fila, columna):
-        button = tk.Button(self.frame_calc, text=str(valor),command=lambda:self.insertar_valor(valor))
-        button.grid(row=fila, column=columna,sticky='NSEW',padx=2,pady=2)
+    def calcular_raiz_cuadrada(self): # Nueva función 
+        texto = self.entrada.get()
+        index = len(texto)
+        try:
+            resultado = eval(texto)
+            resultado = resultado ** 0.5  # Calcula la raíz cuadrada
+            self.entrada.delete(0, index + 1)
+            self.entrada.insert(0, resultado)
+        except:
+            self.entrada.delete(0, index + 1)
+            self.entrada.insert(0, "ERROR")
+
+    def crear_boton(self, valor, fila, columna): # Se crea un botón para la raíz cuadrada
+        if valor == "√":
+            button = tk.Button(self.frame_calc, text=str(valor), command=self.calcular_raiz_cuadrada)
+        else:
+            button = tk.Button(self.frame_calc, text=str(valor), command=lambda: self.insertar_valor(valor))
+        button.grid(row=fila, column=columna, sticky='NSEW', padx=2, pady=2)
 
     def crear_botones(self):
         self.crear_boton("*", 0, 0)
@@ -73,6 +88,7 @@ class Calculadora:
         self.crear_boton("2", 3, 1)
         self.crear_boton("3", 3, 2)
         self.crear_boton("0", 3, 3)
+        self.crear_boton("√", 4, 0)  # Nuevo botón para la raíz cuadrada
 
 if __name__ == "__main__":
     ventana = tk.Tk()
